@@ -120,14 +120,18 @@ class NumberElementCollector {
     }
   }
 
+  /* 0, 1, 1, 0, number moving is here  */
+  /* 0, 1, 1, 0, number moving is here  */
+  /* 0, 1, 1, 0, number moving is here  */
+  
   generateNumberElement() {
     return new NumberElement(
       new NumberElementConfig(
         ['0', '1'],
         [0, innerWidth], // x
         [0, innerHeight], // y
-        [15, 50], // size
-        [-12, 12] // speed
+        [1, 5], // size
+        [-0, 0] // speed
       )
     )
   }
