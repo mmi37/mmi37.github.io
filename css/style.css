@@ -1628,9 +1628,9 @@ main {
 
 article {
   margin-bottom: 20px;
-  border: 2px dotted #ccc;
-  background-color: #fff;
-  padding: 20px;
+ /* border: 2px dotted #ccc;
+  background-color: #fff; */
+  padding: 20px; 
 }
 
 article h3 {
